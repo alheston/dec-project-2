@@ -1,19 +1,20 @@
-# **Project Team 6 DEC**
+# **Project 2 Team 6 DEC**
 _Josh B_ - _Shruti S_ - _Alex H_
 
 ## Objective:
-The objective is to provide gold level production tables that can be used in downstream BI tools. 
+The objective is to provide gold level production tables via an etl workflow that can scale up to handling petabytes of data. 
 ## Consumers:
-The target consumers are daily commuters who are looking to identify the most efficient path to commute from their preferred source location to NY Penn Station. In reality they would access this data via app from either the android or apple os. 
+The target consumers are any stakeholders downstream of the etl workflow (technical and non technical).
+## Questions We Will Answer (more to come)
+1) Average quantity per order
+2) Average price per order
+3) Top 10 products sold
+4) Lowest 10 products sold
+5) Top countries/region by sale volume
 
-## Questions We Want To Answer:
-1) Given your preferred source location, what is the average transit time to Penn Station for typical commuting hours (6-9) historically.
-2) Given your preferred source location, what is the average transit time to Penn Station for typical commuting hours (6-9) today.
-3) What source locations (of the ones provided) and modes are the most efficient in travel time to Penn Station.
-
-| `Source Name`  | `Source Type` | `Source Docs`                               | `Endpoint` |
-| -------------  | ------------- | ------------                                | -----------|
-|  northwind   | postgres db     | [https://docs.traveltime.com/api/sdks/python](https://github.com/pthom/northwind_psql?tab=readme-ov-file) | https://docs.traveltime.com/api/reference/travel-time-distance-matrix|
+| `Source Name`  | `Source Type` | `Source Docs` |
+| -------------  | ------------- | ------------  |                              
+|  northwind   | postgres db     | [https://docs.traveltime.com/api/sdks/python](https://github.com/pthom/northwind_psql?tab=readme-ov-file) |
 
 
 ## Architecture:
