@@ -18,7 +18,7 @@ The target consumers are any stakeholders downstream of the etl workflow (techni
 
 
 ## Architecture:
-![image](https://github.com/alheston/dec-project-1/assets/167915392/aefa75a0-9ef4-496f-a5c9-04b9838c93e5)
+![image](https://github.com/alheston/dec-project-2/blob/main/dec-group6-project2.drawio.png)
 
 
 
