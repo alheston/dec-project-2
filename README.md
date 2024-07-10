@@ -14,7 +14,7 @@ The target consumers are any stakeholders downstream of the etl workflow (techni
 
 | `Source Name`  | `Source Type` | `Source Docs` |
 | -------------  | ------------- | ------------  |                              
-|  northwind   | postgres db     | [https://docs.traveltime.com/api/sdks/python](https://github.com/pthom/northwind_psql?tab=readme-ov-file) |
+|  northwind   | postgres db     | [northwind-psql](https://github.com/pthom/northwind_psql?tab=readme-ov-file) |
 
 
 ## Architecture:
