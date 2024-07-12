@@ -1,0 +1,13 @@
+northwind:
+  outputs:
+    dev:
+      account: kdb58670.us-east-1
+      database: northwind
+      password: Josephinerea2023!
+      role: accountadmin
+      schema: transformations
+      threads: 12
+      type: snowflake
+      user: alhestondec
+      warehouse: xsmall_wh
+  target: dev

@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: "Staging table for orders data"
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+        - not_null
+      - name: employee_id
+        tests:
+        - not_null
+      - name: order_date
+      - name: required_date
+      - name: shipped_date
+      - name: ship_via
+      - name: freight
+      - name: ship_name
+      - name: ship_address
+      - name: ship_city
+      - name: ship_region
+      - name: ship_postal_code
+      - name: ship_country
