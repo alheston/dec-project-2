@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: northwind
+    description: "Northwind database source"
+    database: your_database_name  # Replace with the source database name
+    schema: public
+    tables:
+      - name: customers
+        description: "Customer information"
+      - name: orders
+        description: "Order details"
+      - name: order_details
+        description: "Details of each order"
+      - name: products
+        description: "Product information"
+      - name: suppliers
+        description: "Supplier information"
+      - name: employees
+        description: "Employee information"
+      - name: categories
+        description: "Product categories"
+      - name: shippers
+        description: "Shipper information"
+      - name: customer_customer_demo
+        description: "Customer demographic information mapping"
+      - name: customer_demographics
+        description: "Customer demographic information"
+      - name: region
+        description: "Region information"
+      - name: territories
+        description: "Territory information"
+      - name: employee_territories
+        description: "Employee territories information"
