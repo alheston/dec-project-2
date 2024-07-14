@@ -1,5 +1,5 @@
 
-name: 'northwind'
+name: 'dbt_project_2'
 version: '1.0.0'
 config-version: 2
 
@@ -21,6 +21,6 @@ models:
     datamart:
       +materialized: table
       +schema: datamart
-    stage:
+    staging:
       +materialized: table
-      +schema: stage
+      +schema: staging

@@ -10,5 +10,5 @@ select
     country,
     phone,
     fax,
-    home_page
+    homepage
 from {{ source('northwind', 'suppliers') }}

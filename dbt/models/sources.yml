@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: northwind
     description: "Northwind database source"
-    database: your_database_name  # Replace with the source database name
+    database: northwind  # Replace with the source database name
     schema: public
     tables:
       - name: customers
@@ -32,3 +32,5 @@ sources:
         description: "Territory information"
       - name: employee_territories
         description: "Employee territories information"
+      - name: us_states
+        description: "state dimension table"

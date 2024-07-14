@@ -3,6 +3,5 @@ select
     state_id,
     state_name,
     state_abbr,
-    state_region,
-    state_population
+    state_region
 from {{ ref('stg_us_states') }}
